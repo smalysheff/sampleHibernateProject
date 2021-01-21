@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="ru.sapteh.model.Engine" table="engines">
+        <id name="id" column="id"/>
+        <property name="model" column="model"/>
+        <property name="power" column="power"/>
+    </class>
+</hibernate-mapping>
